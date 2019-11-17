@@ -11,7 +11,7 @@ def hopper
         },
         :dennis_ritchie => {
           :known_for => "Unix",
-          :languages => ["C"]
+          :languages => "C"
         }
      }
  programmer_hash[:grace_hopper]
@@ -31,7 +31,7 @@ def alan_kay_is_known_for
         },
         :dennis_ritchie => {
           :known_for => "Unix",
-          :languages => ["C"]
+          :languages => "C"
         }
      }
     programmer_hash[:alan_kay][:known_for]
@@ -70,17 +70,13 @@ def adding_matz
         },
         :dennis_ritchie => {
           :known_for => "Unix",
-          :languages => ["C"]
+          :languages => "C"
         }
      }
  programmer_hash[:yukihiro_matsumoto = {
    :known_for => "Ruby",
    :languages => ["LISP", "C"]
-
-   
  }]
-
-    
 end
 
 def changing_alan
@@ -96,14 +92,11 @@ def changing_alan
         },
         :dennis_ritchie => {
           :known_for => "Unix",
-          :languages => ["C"]
+          :languages => "C"
         }
      }
      alans_new_info = "GUI"
-     programmer_hash[:alan_kay] [:known_for] = alans_new_info  
-     
-     
-     
+     programmer_hash[:alan_kay] [:known_for] = alans_new_info 
 end
 
 def adding_to_dennis
